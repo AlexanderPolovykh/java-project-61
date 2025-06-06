@@ -88,7 +88,7 @@ public class Engine {
             System.out.printf("'%s' is wrong answer ;(. Correct answer was '%s'.\n", answer, corrAnswer);
             System.out.printf("Let's try again, %s!\n", name);
         }
-        return;
+//        return;
     }
 
 }
