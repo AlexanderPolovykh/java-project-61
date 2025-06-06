@@ -15,7 +15,7 @@ public class Engine {
     }
 
     public static int getRandomNumber(int high) {
-        return (int) Math.round(Math.random() * (high - 1) + 1);
+        return (int) Math.round(Math.random() * (high - 1.0) + 1.0);
     }
 
     public static void makeGame(String name, int game) {
