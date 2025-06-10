@@ -12,7 +12,7 @@ public class App {
         String greetAndAskName = "\nWelcome to the Brain Games!\nMay I have your name? ";
         System.out.print(greetAndAskName);
         String name = scanner.next();
-        String hello = "Hello, " + name + "!";
+        String hello = "Hello," + " " + name + "!";
         System.out.println(hello);
         return name;
     }
